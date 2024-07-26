@@ -42,13 +42,13 @@ export const XP_MULTIPLIER_OVERRIDE: number = null;
 export const STARTING_MONEY_OVERRIDE: integer = 0;
 export const FREE_CANDY_UPGRADE_OVERRIDE: boolean = false;
 export const POKEBALL_OVERRIDE: { active: boolean, pokeballs: PokeballCounts } = {
-  active: false,
+  active: true,
   pokeballs: {
-    [PokeballType.POKEBALL]: 5,
+    [PokeballType.POKEBALL]: 10,
     [PokeballType.GREAT_BALL]: 0,
     [PokeballType.ULTRA_BALL]: 0,
     [PokeballType.ROGUE_BALL]: 0,
-    [PokeballType.MASTER_BALL]: 0,
+    [PokeballType.MASTER_BALL]: 10,
   }
 };
 
